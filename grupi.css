@@ -1,0 +1,198 @@
+.body {
+  background: url("img/background-image.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.background {
+  width: 1440px;
+  height: 900px;
+  object-fit: contain;
+}
+
+.hero-background {
+  position: fixed;
+  top: 154px;
+  right: 220px;
+  width: 506px;
+  height: 256px;
+  border-radius: 20px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: rgba(251, 247, 245, 0.3);
+}
+
+.search-concerts-button {
+  position: fixed;
+  top: 350px;
+  text-align: right;
+  right: 492px;
+  width: 160px;
+  height: 32px;
+  border-radius: 50px;
+  border: solid 1px #1c0b39;
+  background-color: #1c0b39;
+}
+
+.upcoming-shows-button {
+  position: fixed;
+  text-align: right;
+  top: 350px;
+  right: 294px;
+  width: 160px;
+  height: 32px;
+  border-radius: 50px;
+  border: solid 1px #1c0b39;
+  background-color: #1c0b39;
+}
+
+.upcoming-shows {
+  position: fixed;
+  text-align: right;
+  vertical-align: middle;
+  top: 358px;
+  right: 310px;
+  width: auto;
+  height: auto;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fbf7f5;
+}
+
+.search-concerts {
+  position: fixed;
+  text-align: right;
+  vertical-align: middle;
+  top: 358px;
+  right: 516.2px;
+  width: auto;
+  height: auto;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fbf7f5;
+}
+
+.discover-free-concerts {
+  position: fixed;
+  top: 174px;
+  right: 256px;
+  width: auto;
+  height: auto;
+  vertical-align: text-top;
+  text-align: right;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 64px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1c0b39;
+}
+
+.search {
+  position: fixed;
+  top: 40px;
+  text-align: right;
+  right: 417px;
+  width: 61px;
+  height: 22px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fbf7f5;
+}
+
+.calendar {
+  position: fixed;
+  top: 40px;
+  text-align: right;
+  right: 305px;
+  width: 82px;
+  height: 22px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fbf7f5;
+}
+
+.about {
+  position: fixed;
+  top: 40px;
+  text-align: right;
+  right: 220px;
+  width: 55px;
+  height: 22px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fbf7f5;
+}
+
+.final-name {
+  position: fixed;
+  left: 294px;
+  top: 34px;
+  width: auto;
+  height: auto;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fbf7f5;
+}
+
+.logo {
+  position: fixed;
+  left: 220px;
+  top: 29px;
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  border-radius: 5px;
+}
+
+.calendar-icon {
+  position: fixed;
+  top: 357px;
+  right: 423px;
+  width: 15px;
+  height: 17px;
+  object-fit: contain;
+}
+
+.search-icon {
+  position: fixed;
+  top: 359px;
+  right: 621px;
+  width: 14px;
+  height: 15px;
+  object-fit: contain;
+}
