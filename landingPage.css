@@ -1,79 +1,110 @@
 /* menu bar */
 .logo {
   position: fixed;
-  left: 220px;
   top: 29px;
+  left: 220px;
+
   width: 44px;
   height: 44px;
-  object-fit: contain;
+
   border-radius: 5px;
+
+  object-fit: contain;
 }
 
 .final-name {
   position: fixed;
-  left: 284px;
   top: 34px;
+  left: 284px;
+
   width: auto;
   height: auto;
-  font-family: 'Montserrat Alternates', sans-serif;
+
+  letter-spacing: normal;
+
+  color: #fbf7f5;
+
+  font-family: 'Montserrat Alternates';
   font-size: 28px;
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
-  letter-spacing: normal;
-  color: #fbf7f5;
 }
 
 .search {
   position: fixed;
   top: 40px;
-  text-align: right;
   right: 417px;
+
   width: 61px;
   height: 22px;
-  font-family: 'Montserrat Alternates', sans-serif;
+
+  text-align: right;
+  letter-spacing: normal;
+
+  color: #fbf7f5;
+
+  font-family: 'Montserrat Alternates';
   font-size: 18px;
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
-  letter-spacing: normal;
-  color: #fbf7f5;
+}
+
+.search:hover {
+  color: #FF206E;
 }
 
 .calendar {
   position: fixed;
   top: 40px;
-  text-align: right;
   right: 305px;
+
   width: 82px;
   height: 22px;
-  font-family: 'Montserrat Alternates', sans-serif;
+
+  text-align: right;
+  letter-spacing: normal;
+
+  color: #fbf7f5;
+
+  font-family: 'Montserrat Alternates';
   font-size: 18px;
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
-  letter-spacing: normal;
-  color: #fbf7f5;
+}
+
+.calendar:hover {
+  color: #FBFF12;
 }
 
 .about {
   position: fixed;
   top: 40px;
-  text-align: right;
   right: 220px;
+
   width: 55px;
   height: 22px;
-  font-family: 'Montserrat Alternates', sans-serif;
+
+  text-align: right;
+  letter-spacing: normal;
+
+  color: #fbf7f5;
+
+  font-family: 'Montserrat Alternates';
   font-size: 18px;
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
-  letter-spacing: normal;
-  color: #fbf7f5;
+}
+
+.about:hover {
+  color: #41EAD4;
 }
 
 /* end of menu bar */
@@ -89,6 +120,7 @@
 .background {
   width: 1440px;
   height: 900px;
+
   object-fit: contain;
 }
 
@@ -97,66 +129,81 @@
   position: absolute;
   top: 20px;
   right: 30px;
+
   width: 435px;
   height: 156px;
+
+  text-align: right;
+  letter-spacing: normal;
+
+  color: #1c0b39;
+
   font-family: 'Montserrat Alternates';
   font-size: 64px;
   font-weight: 600;
-  text-align: right;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
-  letter-spacing: normal;
-  color: #1c0b39;
 }
 
 .hero-background {
   position: fixed;
   top: 154px;
   right: 220px;
+
   width: 496px;
   height: 256px;
+
   border-radius: 20px;
+  background-color: rgba(251, 247, 245, 0.1);
+
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
-  background-color: rgba(251, 247, 245, 0.1);
 }
     /* find shows button */
 .search-icon {
   position: absolute;
   top: 9px;
   left: 16px;
+
   width: 15px;
   height: 15px;
+
   object-fit: contain;
 }
 
 .search-concerts {
   position: absolute;
-  text-align: right;
-  vertical-align: middle;
   top: 8px;
   right: 16px;
+
   width: 68px;
   height: 15px;
+
+  text-align: right;
+  vertical-align: middle;
+  letter-spacing: normal;
+
+  color: #fbf7f5;
+
   font-family: 'Montserrat Alternates';
   font-size: 12px;
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
-  letter-spacing: normal;
-  color: #fbf7f5;
 }
 
 .search-concerts-button {
   position: absolute;
   bottom: 28px;
   left: 82px;
+
   width: 125px;
   height: 32px;
-  border-radius: 50px;
+
   border: solid 1px #1c0b39;
+  border-radius: 50px;
   background-color: #1c0b39;
 }
 
@@ -165,36 +212,44 @@
   position: absolute;
   top: 7px;
   left: 16px;
+
   width: 16px;
   height: 17px;
+
   object-fit: contain;
 }
 
 .upcoming-shows {
   position: absolute;
-  text-align: right;
-  vertical-align: middle;
   top: 7px;
   right: 16px;
+
   width: auto;
   height: auto;
-  font-family: 'Montserrat Alternates', sans-serif;
+
+  text-align: right;
+  vertical-align: middle;
+  letter-spacing: normal;
+
+  color: #fbf7f5;
+
+  font-family: 'Montserrat Alternates';
   font-size: 12px;
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
-  letter-spacing: normal;
-  color: #fbf7f5;
 }
 
 .upcoming-shows-button {
   position: absolute;
-  bottom: 28px;
   right: 82px;
+  bottom: 28px;
+
   width: 125px;
   height: 32px;
-  border-radius: 50px;
+
   border: solid 1px #1c0b39;
+  border-radius: 50px;
   background-color: #1c0b39;
 }
