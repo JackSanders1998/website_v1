@@ -108,11 +108,7 @@ input, select {
 /* ----------------- MY CODE ------------------- */
 
 body {
-  background: url("img/background.png") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-color: #1c0b39;
 }
 
 .navbar {
@@ -180,79 +176,4 @@ body {
 
 .about:hover {
   color: #41ead4;
-}
-
-/* end of navigation bar */
-
-.hero-overlay-container {
-  width: 70% margin: 0 auto;
-}
-
-.hero-overlay {
-  position: absolute;
-  right: 25%;
-
-  width: 316px;
-  height: 187px;
-  margin: 80px auto;
-
-  border-radius: 20px;
-  background-color: rgba(251, 247, 245, 0.1);
-
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-}
-
-.hero-overlay p {
-  padding-top: 19px;
-  padding-right: 22px;
-
-  text-align: right;
-  letter-spacing: normal;
-
-  color: #1c0b39;
-
-  font-family: 'Montserrat Alternates';
-  font-size: 40px;
-  font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-}
-
-
-.buttons li {
-  display: inline-block;
-  vertical-align: middle;
-  margin-top: 22px;
-
-}
-
-.button {
-  padding-top: 8px;
-  padding-right: 16px;
-  margin-left: 36px;
-  padding-bottom: 8px;
-  padding-left: 16px;
-
-  text-align: center;
-  text-decoration: none;
-  letter-spacing: normal;
-
-  color: #fbf7f5;
-  border: solid 1px #1c0b39;
-  border-radius: 50px;
-  background-color: #1c0b39;
-
-  font-family: 'Montserrat Alternates';
-  font-size: 12px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-}
-
-.button:hover{
-  background-color: #696179;
-  border: solid 1px #696179;
 }
