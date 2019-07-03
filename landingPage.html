@@ -1,50 +1,43 @@
 <!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
 <head>
+  <meta charset="utf-8">
   <title>amp | free concerts</title>
-  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="landingPage.css">
+  <link rel="stylesheet" href="test2.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:300,400,500,600&display=swap" rel="stylesheet">
 </head>
 
-<style>
-  body {
-    background: url("img/background.png") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-</style>
-
 <body>
-
   <header>
-    <img src="img/logo.png" srcset="img/logo@2x.png 2x,
-	    img/log@3x.png 3x" class="logo">
-    <div class="final-name">amp</div>
-    <div class="search">search</div>
-    <div class="calendar">calendar</div>
-    <div class="about">about</div>
+    <div class="navbar">
+      <div class="navbar-items-left">
+        <img src="img/logo.png" srcset="img/logo@2x.png 2x, img/log@3x.png 3x" class="logo">
+        <a class="navbar-left amp" href="#">amp</a>
+      </div>
+      <div class="navbar-items-right">
+        <a class="navbar-right search" href="#">search</a>
+        <a class="navbar-right calendar" href="#">calendar</a>
+        <a class="navbar-right about" href="#">about</a>
+      </div>
+    </div>
   </header>
 
-  <section class="hero-background">
-    <div class="discover-free-concerts">discover<br />
-      free concerts</div>
-    <button class="search-concerts-button">
-      <div class="search-concerts">find shows</div>
-      <img src="img/search-icon.png" srcset="img/search-icon@2x.png 2x,
-        img/search-icon@3x.png 3x" class="search-icon">
-    </button>
-    <button class="upcoming-shows-button">
-      <div class="upcoming-shows">upcoming</div>
-      <img src="img/calendar-icon.png" srcset="img/calendar-icon@2x.png 2x,
-        img/calendar-icon@3x.png 3x" class="calendar-icon">
-    </button>
-  </section>
+  <div class="hero-overlay-container">
+    <div class="hero-overlay">
+      <p>
+        discover <br>
+        free concerts
+      </p>
+      <ul class="buttons">
+        <li><a class="button" href="#">find shows</a></li>
+        <li><a class="button" href="#">upcoming</a></li>
+      </>
 
+    </div>
+  </div>
 
 </body>
 

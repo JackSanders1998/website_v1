@@ -1,158 +1,200 @@
-/* menu bar */
-.logo {
-  position: fixed;
-  top: 29px;
-  left: 220px;
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
 
-  width: 44px;
-  height: 44px;
+  vertical-align: baseline;
 
-  border-radius: 5px;
+  border: 0;
+  outline: 0;
+  background: transparent;
 
-  object-fit: contain;
+  font-size: 100%;
 }
 
-.final-name {
-  position: fixed;
-  top: 34px;
-  left: 284px;
-
-  width: auto;
-  height: auto;
-
-  letter-spacing: normal;
-
-  color: #fbf7f5;
-
-  font-family: 'Montserrat Alternates';
-  font-size: 28px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
+body {
+  line-height: 1;
 }
 
-.search {
-  position: fixed;
-  top: 40px;
-  right: 417px;
-
-  width: 61px;
-  height: 22px;
-
-  text-align: right;
-  letter-spacing: normal;
-
-  color: #fbf7f5;
-
-  font-family: 'Montserrat Alternates';
-  font-size: 18px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
 }
 
-.search:hover {
-  color: #FF206E;
+nav ul {
+  list-style: none;
 }
 
-.calendar {
-  position: fixed;
-  top: 40px;
-  right: 305px;
-
-  width: 82px;
-  height: 22px;
-
-  text-align: right;
-  letter-spacing: normal;
-
-  color: #fbf7f5;
-
-  font-family: 'Montserrat Alternates';
-  font-size: 18px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
+blockquote, q {
+  quotes: none;
 }
 
-.calendar:hover {
-  color: #FBFF12;
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
 }
 
-.about {
-  position: fixed;
-  top: 40px;
-  right: 220px;
+a {
+  margin: 0;
+  padding: 0;
 
-  width: 55px;
-  height: 22px;
+  vertical-align: baseline;
 
-  text-align: right;
-  letter-spacing: normal;
+  background: transparent;
 
-  color: #fbf7f5;
-
-  font-family: 'Montserrat Alternates';
-  font-size: 18px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
+  font-size: 100%;
 }
 
-.about:hover {
-  color: #41EAD4;
+/* change colours to suit your needs */
+ins {
+  text-decoration: none;
+
+  color: #000;
+  background-color: #ff9;
 }
 
-/* end of menu bar */
-/* background image */
-.body {
-  background: url("img/background-image.png") no-repeat center center fixed;
+/* change colours to suit your needs */
+mark {
+  color: #000;
+  background-color: #ff9;
+
+  font-weight: bold;
+  font-style: italic;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  cursor: help;
+
+  border-bottom: 1px dotted;
+}
+
+table {
+  border-spacing: 0;
+
+  border-collapse: collapse;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+
+  height: 1px;
+  margin: 1em 0;
+  padding: 0;
+
+  border: 0;
+  border-top: 1px solid #cccccc;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+/* ----------------- MY CODE ------------------- */
+body {
+  background: url("img/background.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-.background {
-  width: 1440px;
-  height: 900px;
-
-  object-fit: contain;
+.navbar {
+  width: 70%;
+  height: 44px;
+  margin: 29px auto;
 }
 
-/* hero rectangle */
-.discover-free-concerts {
+.logo {
   position: absolute;
-  top: 20px;
-  right: 30px;
 
-  width: 435px;
-  height: 156px;
+  border-radius: 5px;
+}
 
-  text-align: right;
+.navbar a {
+  display: inline-block;
+
+  vertical-align: middle;
+  text-decoration: none;
   letter-spacing: normal;
 
-  color: #1c0b39;
+  color: #fbf7f5;
 
   font-family: 'Montserrat Alternates';
-  font-size: 64px;
-  font-weight: 600;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
 }
 
-.hero-background {
-  position: fixed;
-  top: 154px;
-  right: 220px;
+.navbar-items-right {
+  float: right;
 
-  width: 496px;
-  height: 256px;
+  padding-top: 12px;
+}
+
+.navbar-items-left {
+  float: left;
+}
+
+.navbar-right {
+  margin-left: 30px;
+
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.navbar-left {
+  position: relative;
+  left: 64px;
+
+  padding-top: 5px;
+
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.amp:hover {
+  color: #696179
+}
+
+.search:hover {
+  color: #ff206e;
+}
+
+.calendar:hover {
+  color: #fbff12;
+}
+
+.about:hover {
+  color: #41ead4;
+}
+
+.hero-overlay-container {
+  width: 70% margin: 0 auto;
+}
+
+.hero-overlay {
+  position: absolute;
+  right: 25%;
+
+  width: 316px;
+  height: 187px;
+  margin: 80px auto;
 
   border-radius: 20px;
   background-color: rgba(251, 247, 245, 0.1);
@@ -160,31 +202,47 @@
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
 }
-    /* find shows button */
-.search-icon {
-  position: absolute;
-  top: 9px;
-  left: 16px;
 
-  width: 15px;
-  height: 15px;
-
-  object-fit: contain;
-}
-
-.search-concerts {
-  position: absolute;
-  top: 8px;
-  right: 16px;
-
-  width: 68px;
-  height: 15px;
+.hero-overlay p {
+  padding-top: 19px;
+  padding-right: 22px;
 
   text-align: right;
+  letter-spacing: normal;
+
+  color: #1c0b39;
+
+  font-family: 'Montserrat Alternates';
+  font-size: 40px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+}
+
+
+.buttons li {
+  display: inline-block;
   vertical-align: middle;
+  margin-top: 22px;
+
+}
+
+.button {
+  padding-top: 8px;
+  padding-right: 16px;
+  margin-left: 36px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+
+  text-align: center;
+  text-decoration: none;
   letter-spacing: normal;
 
   color: #fbf7f5;
+  border: solid 1px #1c0b39;
+  border-radius: 50px;
+  background-color: #1c0b39;
 
   font-family: 'Montserrat Alternates';
   font-size: 12px;
@@ -192,64 +250,4 @@
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
-}
-
-.search-concerts-button {
-  position: absolute;
-  bottom: 28px;
-  left: 82px;
-
-  width: 125px;
-  height: 32px;
-
-  border: solid 1px #1c0b39;
-  border-radius: 50px;
-  background-color: #1c0b39;
-}
-
-    /* upcoming button */
-.calendar-icon {
-  position: absolute;
-  top: 7px;
-  left: 16px;
-
-  width: 16px;
-  height: 17px;
-
-  object-fit: contain;
-}
-
-.upcoming-shows {
-  position: absolute;
-  top: 7px;
-  right: 16px;
-
-  width: auto;
-  height: auto;
-
-  text-align: right;
-  vertical-align: middle;
-  letter-spacing: normal;
-
-  color: #fbf7f5;
-
-  font-family: 'Montserrat Alternates';
-  font-size: 12px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-}
-
-.upcoming-shows-button {
-  position: absolute;
-  right: 82px;
-  bottom: 28px;
-
-  width: 125px;
-  height: 32px;
-
-  border: solid 1px #1c0b39;
-  border-radius: 50px;
-  background-color: #1c0b39;
 }
