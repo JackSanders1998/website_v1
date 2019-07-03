@@ -193,7 +193,7 @@ body {
   margin-left: 15%;
   margin-top: 50px;
   font-family: 'Montserrat Alternates';
-  font-size: 64px;
+  font-size: 40px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -212,7 +212,7 @@ body {
   top: 50px;
   margin-right: 50%;
   font-family: Muli;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
@@ -223,7 +223,7 @@ body {
 
 .amp-icon{
   position: relative;
-  top: -200px;
+  top: -120px;
   width: 272.5px;
   height: 325px;
   object-fit: contain;
