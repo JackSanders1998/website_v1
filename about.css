@@ -201,3 +201,31 @@ body {
   letter-spacing: normal;
   color: #fbf7f5;
 }
+
+.body{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.body-text{
+  position: relative;
+  top: 50px;
+  margin-right: 50%;
+  font-family: Muli;
+  font-size: 24px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fbf7f5;
+}
+
+.amp-icon{
+  position: relative;
+  top: -200px;
+  width: 272.5px;
+  height: 325px;
+  object-fit: contain;
+  float: right;
+}
