@@ -221,6 +221,24 @@ body {
   color: #fbf7f5;
 }
 
+.a-letter{
+  font-family: 'Montserrat Alternates';
+  color: #ff206e;
+  font-weight: 500;
+}
+
+.m-letter{
+  font-family: 'Montserrat Alternates';
+  color: #fbff12;
+  font-weight: 500;
+}
+
+.p-letter{
+  font-family: 'Montserrat Alternates';
+  color: #41ead4;
+  font-weight: 500;
+}
+
 .amp-icon{
   position: relative;
   top: -120px;
