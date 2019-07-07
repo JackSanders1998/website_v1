@@ -1,0 +1,202 @@
+[
+  {
+    "index": 1,
+    "artist": "ATLANTA S #1 ROOFTOP DAY PARTY",
+    "day_of_week": "Sat",
+    "date": "Jul 6",
+    "start_time": "3:00pm",
+    "location": "CAFE CIRCA",
+    "city": "Atlanta",
+    "state": "GA"
+  },
+  {
+    "index": 2,
+    "artist": "ATLANTA S NEWEST CLUB - REVEL OF WEST MIDTOWN",
+    "day_of_week": "Sat",
+    "date": "Jul 6",
+    "start_time": "10:00pm",
+    "location": "Revel",
+    "city": "Atlanta",
+    "state": "GA"
+  },
+  {
+    "index": 3,
+    "artist": "24th Annual Central Avenue Jazz Festival",
+    "day_of_week": "Sat",
+    "date": "Jul 27",
+    "start_time": "11:00am",
+    "location": "Cental Avenue (Vernon Ave. and King Blvd.)",
+    "city": "Los Angeles",
+    "state": "CA"
+  },
+  {
+    "index": 4,
+    "artist": "NYC Hip Hop vs. Reggae Katra Lounge Remix",
+    "day_of_week": "Fri",
+    "date": "Jul 5",
+    "start_time": "11:00pm",
+    "location": "Katra",
+    "city": "New York",
+    "state": "NY"
+  },
+  {
+    "index": 5,
+    "artist": "MERCY FRIDAYS",
+    "day_of_week": "Fri",
+    "date": "Jul 5",
+    "start_time": "10:00pm",
+    "location": "Mercy Night Club",
+    "city": "Houston",
+    "state": "Texas"
+  },
+  {
+    "index": 6,
+    "artist": "FRIDAY NIGHT ROOFTOP PARTY",
+    "day_of_week": "Fri",
+    "date": "Jul 5",
+    "start_time": "10:00pm",
+    "location": "Monarch Rooftop",
+    "city": "New York",
+    "state": "NY"
+  },
+  {
+    "index": 7,
+    "artist": "BBQ Blues Brews & Soul Festival",
+    "day_of_week": "Sat",
+    "date": "Jul 6",
+    "start_time": "7:00pm",
+    "location": "Lee Street Park & Amphitheater",
+    "city": "Jonesboro",
+    "state": "GA"
+  },
+  {
+    "index": 8,
+    "artist": "NYC Ravel Penthouse 808 Rooftop Saturdays",
+    "day_of_week": "Sat",
+    "date": "Jul 6",
+    "start_time": "11:00pm",
+    "location": "Ravel Hotel",
+    "city": "Queens",
+    "state": "NY"
+  },
+  {
+    "index": 9,
+    "artist": "LEELA JAMES",
+    "day_of_week": "Sat",
+    "date": "Aug 17",
+    "start_time": "7:00pm",
+    "location": "Burton Chace Park",
+    "city": "Marina del Rey",
+    "state": "CA"
+  },
+  {
+    "index": 10,
+    "artist": "Opera at the Ballpark General Admission",
+    "day_of_week": "Sat",
+    "date": "Sep 21",
+    "start_time": "7:30pm",
+    "location": "Oracle Park",
+    "city": "San Francisco",
+    "state": "CA"
+  },
+  {
+    "index": 11,
+    "artist": "NOLA ROOFTOP TOUR: Essence Edition",
+    "day_of_week": "Thu",
+    "date": "Jul 4",
+    "start_time": "8:00pm + 3 more events",
+    "location": "New Orleans",
+    "city": "New Orleans",
+    "state": "LA"
+  },
+  {
+    "index": 12,
+    "artist": "AMBIENTE LATINO ROOFTOP PARTY",
+    "day_of_week": "Sat",
+    "date": "Jul 6",
+    "start_time": "10:30pm",
+    "location": "LA TERRAZA ROOFTOP",
+    "city": "New york",
+    "state": "ny"
+  },
+  {
+    "index": 13,
+    "artist": "LOVE + PROPAGANDA",
+    "day_of_week": "Fri",
+    "date": "Jul 5",
+    "start_time": "9:30pm",
+    "location": "Love + Propaganda",
+    "city": "San Francisco",
+    "state": "CA"
+  },
+  {
+    "index": 14,
+    "artist": "McDonald s Gospel Tour: Washington, DC",
+    "day_of_week": "Sat",
+    "date": "Jul 27",
+    "start_time": "7:00pm",
+    "location": "City of Praise Family Ministries",
+    "city": "Landover",
+    "state": "MD"
+  },
+  {
+    "index": 15,
+    "artist": "Concerts on the Rooftop",
+    "day_of_week": "Thu",
+    "date": "Jul 18",
+    "start_time": "7:00pm",
+    "location": "William T. Evjue Rooftop Gardens",
+    "city": "Madison",
+    "state": "WI"
+  },
+  {
+    "index": 16,
+    "artist": "MERCY FRIDAYS, HENNESSY COCKTAILS, WINGS & SHRIMP",
+    "day_of_week": "Fri",
+    "date": "Jul 5",
+    "start_time": "9:00pm",
+    "location": "Mercy Night Club",
+    "city": "Houston",
+    "state": "Texas"
+  },
+  {
+    "index": 17,
+    "artist": "ATLANTA S #1 FRIDAY NIGHT PARTY",
+    "day_of_week": "Fri",
+    "date": "Jul 5",
+    "start_time": "10:00pm",
+    "location": "Suite  Lounge",
+    "city": "Atlanta",
+    "state": "GA"
+  },
+  {
+    "index": 18,
+    "artist": "Waffles, Wings, & Whiskey Brunch & Day Party",
+    "day_of_week": "Sat",
+    "date": "Jul 20",
+    "start_time": "1:00pm",
+    "location": "Carragher s",
+    "city": "New York",
+    "state": "NY"
+  },
+  {
+    "index": 19,
+    "artist": "The Scissortail Park Grand Opening Concert featuring Kings of Leon",
+    "day_of_week": "Fri",
+    "date": "Sep 27",
+    "start_time": "5:00pm",
+    "location": "Scissortail Park",
+    "city": "Oklahoma City",
+    "state": "OK"
+  },
+  {
+    "index": 20,
+    "artist": "4th of July Community Festival & Fireworks Show",
+    "day_of_week": "Thu",
+    "date": "Jul 4",
+    "start_time": "11:00am",
+    "location": "Exposition Park",
+    "city": "Los Angeles",
+    "state": "CA"
+  }
+]
